@@ -1,0 +1,180 @@
+.menuicon{
+    width: 30px;
+    height: 2px;
+    background-color: #F1CDB3;
+    margin: 7px 0; 
+}
+.brmenu{
+    transition: 0.5s;
+    z-index: 2;
+}
+#blNav{
+    position: absolute;
+    background-color: rgba(41, 41, 41, 0.6);
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100vh;
+}
+.navA {
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 1;
+    right: 0;
+    top: 0;
+    background-color: #292929;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  .navA-con {
+    content: flex;
+    top: 25%;
+    width: 243px; 
+    text-align: center;
+  }
+  .navA li{
+    padding: 0;
+    padding-bottom:40px;
+  }
+  .navA a {
+    text-decoration: none;
+    font-size: 32px;
+    display: block; 
+    transition: 0.3s;
+  }
+  .navB{
+    background-color: #ffffff;
+}
+.navB a {
+    text-decoration: none;
+    color: #545454;
+    transition: 0.5s;
+  }
+  .navB .active{
+    color: #292929;
+    border-bottom: 3px solid #F1CDB3;
+}
+/* POPUP */
+.modal {
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .modalall{
+    background-color: transparent;
+    margin: auto;
+    width: 982px;
+    height: 604px;
+    text-align: right;
+    display: none;
+  }
+  .modal-cont {
+    background-color: #fefefe;
+    width: 900px;
+    height: 500px;
+    border-radius: 9px;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+    padding: 0;
+    text-align: left;
+    display: flex;
+    margin: auto;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #000;
+    font-size: 28px;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    background: transparent;
+    transition: 0.3s;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
+  }
+  .modal-cont img{
+    border-radius: 9px;
+    max-width: 500px;
+    width: 500px;
+}
+.modaltxt{
+    padding: 50px 20px 88px 29px;
+}
+.modaltxt h3{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+.modaltxt h4{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-top: 10px;
+}
+.modaltxt li{
+  padding: 0;
+  list-style-type: disc;
+  color: #F1CDB3;
+}
+.modaltxt h5{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin: 0;
+    padding-top: 40px;
+}
+.modaltxt li h5{
+  padding: 0;
+  padding-top: 10px;
+}
+.modaltxt ul{
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+.modal-overlay--visible {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease-in-out;
+}
+
+.modal--visible {
+  display: block;
+}
+
+/* Carousel */
+
