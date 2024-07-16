@@ -849,7 +849,8 @@ ul{
         height: 435px;
     }
     .slider{
-        gap: 12px;
+        justify-content: center;
+    }
     }
     .cardnav{
         gap: 40px;
